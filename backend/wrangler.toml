@@ -1,0 +1,25 @@
+name = "rag-dojo-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+# TODO: binder les ressources une fois créées (wrangler d1/r2/vectorize/kv create ...)
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rag_dojo_db"
+database_id = ""
+
+[[r2_buckets]]
+binding = "DOCUMENTS"
+bucket_name = "rag-dojo-documents"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "rag-dojo-chunks"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = ""

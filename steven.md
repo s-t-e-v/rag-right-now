@@ -1030,3 +1030,8 @@ La démo doit illustrer clairement le rôle du RAG :
 
 > **RAG Dojo ne se contente pas de retrouver une réponse : il utilise les sources pour générer, évaluer et adapter un entretien technique personnalisé.**
 
+Frontend : React + TypeScript
+Backend  : Cloudflare Worker + TypeScript + Hono
+RAG      : TypeScript
+Base     : D1 + Vectorize + R2
+LLM      : Workers AI
