@@ -1035,3 +1035,16 @@ Backend  : Cloudflare Worker + TypeScript + Hono
 RAG      : TypeScript
 Base     : D1 + Vectorize + R2
 LLM      : Workers AI
+
+
+React frontend
+      ↓ requête HTTP
+Hono API sur Cloudflare Workers
+      ↓
+Pipeline RAG
+      ├── chunking
+      ├── embeddings
+      ├── Vectorize
+      ├── retrieval
+      ├── prompt
+      └── Workers AI
